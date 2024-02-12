@@ -23,3 +23,18 @@ CODE = {'A':')','a':'0','B':'(','b':'9','C':'*','c':'8',\
         '{':'[','[':'{','}':']',']':'}'}
 
 
+def main():
+        phrase = input('What would you like encoded?')
+
+        Encrypt = ''
+
+        for char in phrase:
+                if char in CODE:       
+                        Encrypt += (CODE[char])
+                else:
+                        Encrypt += " " 
+
+
+        print(Encrypt)
+
+main()
