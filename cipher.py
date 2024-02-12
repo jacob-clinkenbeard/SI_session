@@ -1,6 +1,9 @@
 '''
 Write a Python program that encrypts a given text using the dictionary below. 
 Ask the user for a text to encrpyt and print out the encrypted text.
+For example:
+Enter the text to encrypt: Today is a great day!
+Encrypted Text: Qv70l 2r 0 4s60q 70lJ
 '''
 
 CODE = {'A':')','a':'0','B':'(','b':'9','C':'*','c':'8',\
